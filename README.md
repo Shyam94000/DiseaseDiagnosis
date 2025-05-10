@@ -1,7 +1,12 @@
-Conventional disease diagnosis in medicine usually depends on clinical assessments, laboratory analysis, and professional medical interpretation. Although efficient, this method is frequently time-consuming, costly, and greatly reliant on the presence of competent healthcare professionals. In most situations, particularly in resource-poor settings or complicated medical situations, these approaches are susceptible to delays, errors, and human bias, which could lead to misdiagnosis, delayed interventions, and elevated patient risk.
+# DiseaseDiagnosis: AI-Driven Disease Prediction System
 
-	As the availability of electronic health records and healthcare-related datasets increases, it is critical that there be intelligent systems to assist medical professionals to diagnose diseases in a quicker and more accurate manner. The burgeoning amount of patient data, which includes structured records (e.g., demographics, vitals, test results) and unstructured data (e.g., clinical notes), creates a chance to utilize Artificial Intelligence (AI) to gain insights that can enhance healthcare delivery.
- 
-	This project seeks to create an AI-driven disease prediction system that utilizes machine learning to examine patient information and determine the presence or absence of specific diseases. Based on the MedQuAD dataset in Kaggle, which consists of medically pertinent question-answer pairs derived from reliable NIH sources, the system will identify disease-related data that can contribute to enhanced predictive accuracy.
- 
-	The main problem solved is a supervised classification, where patterns in labeled data are learned by the model in order to classify into disease categories or outcomes. The machine learning algorithms that will be used are Logistic Regression, Random Forest, and XGBoost, focusing on interpretability through SHAP or LIME methods.
+This project aims to develop an Artificial Intelligence (AI) driven system for disease prediction by analyzing patient information, specifically leveraging the MedQuAD dataset which contains medically pertinent question-answer pairs. The core task is a supervised classification problem: the system learns patterns from labeled data (medical questions tagged with focus areas/diseases) to predict disease categories.
+
+We employ machine learning algorithms including **Logistic Regression, Random Forest, and XGBoost**. A significant emphasis is placed on model interpretability, with plans to utilize techniques like SHAP or LIME to understand feature influences and build trust with medical professionals.
+
+**Key Goals:**
+* Achieve accurate disease classification from textual medical data.
+* Ensure model predictions are transparent and interpretable.
+* Explore potential for real-world applicability, especially in low-resource settings.
+
+This repository contains the code, data processing steps, model implementations, and analysis for the DiseaseDiagnosis project.
